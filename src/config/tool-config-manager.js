@@ -5,7 +5,7 @@
  */
 
 import supabaseClient from '../services/supabase-client.js';
-import unifiedAuth from './unified-auth.js';
+import unifiedAuth from '../auth/unified-auth.js';
 
 class ToolConfigManager {
   constructor() {

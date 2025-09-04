@@ -20,12 +20,12 @@ class UnifiedAuth {
    */
   async getAuthenticatedUser(context = {}) {
     try {
-      // Method 1: Try Supabase session
-      const { data: userData, error: authError } = await supabaseClient.supabase.auth.getUser();
-      if (userData?.user && !authError) {
+      // Method 1: Try Supabase session (Copilot feedback: use getSession() instead of getUser())
+      const { data: sessionData, error: authError } = await supabaseClient.supabase.auth.getSession();
+      if (sessionData?.session?.user && !authError) {
         return {
-          id: userData.user.id,
-          email: userData.user.email,
+          id: sessionData.session.user.id,
+          email: sessionData.session.user.email,
           method: 'supabase_session',
           authenticated: true
         };
