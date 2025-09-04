@@ -9,7 +9,8 @@
  * This fixes Claude Desktop integration by maintaining clean JSON-RPC communication.
  */
 
-import { spawn } from 'child_process';
+// Use require() for better Node.js compatibility (Copilot feedback)
+const { spawn } = require('child_process');
 
 // Start Flow Nexus MCP server 
 const server = spawn('npx', ['flow-nexus', 'mcp'], {
@@ -31,15 +32,15 @@ server.stdout.on('data', (data) => {
         // Test if it's valid JSON-RPC
         const parsed = JSON.parse(trimmed);
         if (parsed && (parsed.jsonrpc || parsed.method || parsed.result !== undefined || parsed.error !== undefined)) {
-          // Valid JSON-RPC message - pass to stdout
-          process.stdout.write(line + '\n');
+          // Valid JSON-RPC message - pass to stdout (use trimmed to avoid double newlines)
+          process.stdout.write(trimmed + '\n');
         } else {
           // Valid JSON but not JSON-RPC protocol - redirect to stderr
-          process.stderr.write('[NON-PROTOCOL] ' + line + '\n');
+          process.stderr.write('[NON-PROTOCOL] ' + trimmed + '\n');
         }
       } catch (e) {
         // Not valid JSON - redirect to stderr
-        process.stderr.write('[NON-JSON] ' + line + '\n');
+        process.stderr.write('[NON-JSON] ' + trimmed + '\n');
       }
     }
   }
@@ -54,7 +55,8 @@ server.on('close', (code) => {
 });
 
 server.on('error', (error) => {
-  console.error('MCP Server Error:', error);
+  // Use consistent [ERROR] prefix for server errors (Copilot feedback)
+  console.error('[ERROR] MCP Server Error:', error);
   process.exit(1);
 });
 
