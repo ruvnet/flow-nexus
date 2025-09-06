@@ -2,9 +2,9 @@
 
 <div align="center">
 
-## 🌐 [fnx.ruv.io](https://fnx.ruv.io) 
+## 🌐 [flow-nexus.ruv.io](https://flow-nexus.ruv.io) 
 
-![Flow Nexus](https://img.shields.io/badge/version-0.0.5-blue?style=for-the-badge)
+![Flow Nexus](https://img.shields.io/badge/version-0.1.111-blue?style=for-the-badge)
 ![MCP](https://img.shields.io/badge/MCP-Compatible-green?style=for-the-badge)
 ![NPM](https://img.shields.io/badge/npm-flow--nexus-red?style=for-the-badge)
 ![AI Agents](https://img.shields.io/badge/AI%20Agents-70%2B-purple?style=for-the-badge)
@@ -23,15 +23,15 @@ npx flow-nexus
 
 ## 🎯 Transform How You Build Software
 
-Flow Nexus is your AI-powered development platform with 70+ MCP tools. Deploy swarms of specialized agents, complete coding challenges, and earn rUv credits while building real applications.
+Flow Nexus is your AI-powered development platform with 90+ MCP tools. Deploy swarms of specialized agents, complete coding challenges, and earn rUv credits while building real applications.
 
 <div align="center">
 
 ### **Why Developers Choose Flow Nexus**
 
-| 🚀 **70+ MCP Tools** | 🎮 **Earn While Building** | 🤖 **AI Swarms** | 💰 **Free Credits** |
+| 🚀 **90+ MCP Tools** | 🎮 **Earn While Building** | 🤖 **AI Swarms** | 💰 **Free Credits** |
 |-------------------|---------------------------|---------------------|--------------------------|
-| Complete toolset for AI development | Gamified challenges & rewards | Multi-agent orchestration | 2560 credits to start |
+| Complete toolset for AI development | Gamified challenges & rewards | Multi-agent orchestration | 256 credits to start |
 
 </div>
 
@@ -64,7 +64,7 @@ npx flow-nexus init
 
 ### **Authentication & Setup**
 ```bash
-# Register new account
+# Register new account (get 2560 free rUv credits!)
 npx flow-nexus auth register -e email@example.com -p password
 
 # Login to existing account
@@ -82,15 +82,15 @@ npx flow-nexus auth status
 # Run as MCP server (for Claude Desktop)
 npx flow-nexus mcp
 
-# Start with specific mode
-npx flow-nexus start swarm      # Swarm orchestration tools
-npx flow-nexus start store      # App store & gamification
-npx flow-nexus start gamer      # Challenges & achievements
-npx flow-nexus start dev        # Development tools
-npx flow-nexus start complete   # All 70+ tools (default)
+# List available MCP tools
+npx flow-nexus mcp tools
 
-# Start with HTTP server
-npx flow-nexus start --http-port 3000
+# Start MCP server with different modes
+npx flow-nexus mcp start          # Default MCP server
+npx flow-nexus mcp --mode swarm   # Swarm orchestration focus
+npx flow-nexus mcp --mode store   # App store focus
+npx flow-nexus mcp --mode gamer   # Gaming & challenges focus
+npx flow-nexus mcp --mode complete # All 70+ tools enabled
 ```
 
 ### **Interactive CLI Commands**
@@ -99,31 +99,35 @@ npx flow-nexus start --http-port 3000
 npx flow-nexus
 
 # Swarm management
-npx flow-nexus swarm
+npx flow-nexus swarm create [topology]  # Create new swarm
+npx flow-nexus swarm list              # List active swarms
+npx flow-nexus swarm status            # Check swarm status
 
-# Browse challenges
-npx flow-nexus challenge
+# Challenge system
+npx flow-nexus challenge list           # Browse challenges
+npx flow-nexus challenge submit         # Submit solution
+npx flow-nexus challenge get [id]      # Get specific challenge
 
-# Manage sandboxes
-npx flow-nexus sandbox
+# Sandbox management
+npx flow-nexus sandbox create          # Create new sandbox
+npx flow-nexus sandbox list            # List sandboxes
+npx flow-nexus sandbox execute         # Execute code
 
-# Check credit balance
-npx flow-nexus credits
+# Credits & profile
+npx flow-nexus credits balance         # Check rUv balance
+npx flow-nexus profile view            # View profile
+npx flow-nexus achievements list       # Check achievements
+npx flow-nexus leaderboard global      # View rankings
 
-# View templates
-npx flow-nexus template
+# Templates & store
+npx flow-nexus template list           # Browse templates
+npx flow-nexus template deploy [name]  # Deploy template
+npx flow-nexus store list              # Browse app store
+npx flow-nexus store publish           # Publish your app
 
-# Browse app store
-npx flow-nexus store
-
-# View profile & stats
-npx flow-nexus profile
-
-# Check achievements
-npx flow-nexus achievements
-
-# View leaderboard
-npx flow-nexus leaderboard
+# Queen Seraphina AI
+npx flow-nexus seraphina [question]    # Chat with AI mentor
+npx flow-nexus chat                    # Interactive chat mode
 ```
 
 ---
@@ -136,18 +140,23 @@ Every MCP tool operation costs rUv credits. Here are the actual costs from the s
 
 | Operation | Cost | Description |
 |-----------|------|-------------|
-| **swarm_init** | 3 rUv | Initialize a new swarm |
-| **agent_spawn** | 2 rUv/agent | Create specialized agents |
+| **swarm_init** | 10 rUv | Initialize a new swarm |
+| **agent_spawn** | 3 rUv/agent | Create specialized agents |
 | **sandbox_create** | 1 rUv | Deploy cloud sandbox |
+| **sandbox_execute** | 2 rUv | Execute code in sandbox |
 | **task_orchestrate** | 5 rUv | Complex task coordination |
-| **template_deploy** | 1-8 rUv | Deploy app templates |
-| **challenge_submit** | 0 rUv | FREE - Submit solutions |
+| **template_deploy** | 2 rUv | Deploy app templates |
+| **challenge_submit** | 2 rUv | Submit challenge solutions |
+| **seraphina_chat** | 2 rUv | Chat with Queen Seraphina AI |
+| **neural_train** | 100 rUv | Train neural networks |
+| **neural_predict** | 10 rUv | Make neural predictions |
 
 ### **Earn Credits**
 
 | Activity | Reward | How To |
 |----------|--------|--------|
-| **Register** | 100 rUv | Sign up for free account |
+| **Register** | 2560 rUv | Sign up for free account (bonus!) |
+| **Daily Login** | 100 rUv | Login bonus each day |
 | **Complete Challenge** | 10-50 rUv | `npx flow-nexus challenge` |
 | **Publish App** | 25 rUv | Share your creations |
 | **5-Star Rating** | 50 rUv | Get high ratings on apps |
@@ -291,13 +300,16 @@ npx flow-nexus
 
 | Template | Cost | Description |
 |----------|------|-------------|
-| **SaaS Starter** | 1 rUv | Complete SaaS boilerplate |
-| **AI Chatbot** | 1 rUv | ChatGPT-like interface |
+| **SaaS Starter** | 2 rUv | Complete SaaS boilerplate |
+| **AI Chatbot** | 2 rUv | ChatGPT-like interface |
 | **E-Commerce** | 2 rUv | Full shopping platform |
-| **Admin Panel** | 1 rUv | Dashboard with analytics |
-| **Multi-Tenant** | 5 rUv | Enterprise SaaS platform |
-| **Marketplace** | 5 rUv | Two-sided marketplace |
-| **CRM System** | 8 rUv | Customer management |
+| **Admin Panel** | 2 rUv | Dashboard with analytics |
+| **Multi-Tenant** | 2 rUv | Enterprise SaaS platform |
+| **Marketplace** | 2 rUv | Two-sided marketplace |
+| **CRM System** | 2 rUv | Customer management |
+| **Claude Code** | 2 rUv | Claude-integrated template |
+| **Next.js App** | 2 rUv | Modern React framework |
+| **Python API** | 2 rUv | FastAPI backend template |
 
 ```bash
 # List all templates
@@ -313,12 +325,16 @@ npx flow-nexus template deploy
 
 ### **Setup for Claude Desktop**
 
-1. Install Flow Nexus:
+1. Install Flow Nexus globally OR use npx:
 ```bash
+# Option 1: Install globally
 npm install -g flow-nexus
+
+# Option 2: Use npx (no install needed)
+npx flow-nexus
 ```
 
-2. Add to Claude Desktop config:
+2. Add to Claude Desktop config (`~/Library/Application Support/Claude/claude_desktop_config.json` on macOS):
 ```json
 {
   "mcpServers": {
@@ -326,7 +342,8 @@ npm install -g flow-nexus
       "command": "npx",
       "args": ["flow-nexus", "mcp"],
       "env": {
-        "ANTHROPIC_API_KEY": "your-key-optional"
+        "ANTHROPIC_API_KEY": "your-key-optional",
+        "E2B_API_KEY": "your-e2b-key-optional"
       }
     }
   }
@@ -375,7 +392,7 @@ npx flow-nexus challenge
 npx flow-nexus template
 
 # Deploy your choice
-# Costs 1-8 rUv depending on template
+# Costs 2 rUv per template
 ```
 
 ---
@@ -414,11 +431,13 @@ npx flow-nexus achievements
 ### **Built-in Help**
 ```bash
 # General help
-npx flow-nexus help
+npx flow-nexus --help
 
 # Command-specific help
 npx flow-nexus swarm --help
 npx flow-nexus challenge --help
+npx flow-nexus mcp --help
+npx flow-nexus auth --help
 ```
 
 ### **Queen Seraphina AI Assistant**
@@ -437,8 +456,11 @@ seraphina_chat with message "How do I create a swarm?"
 # Check balance
 npx flow-nexus credits balance
 
-# Complete daily challenge for free credits
-npx flow-nexus challenge
+# Complete challenges to earn credits
+npx flow-nexus challenge list
+
+# Daily login bonus (100 rUv)
+npx flow-nexus auth login
 ```
 
 **MCP not working in Claude?**
@@ -447,6 +469,12 @@ npx flow-nexus challenge
 npx flow-nexus mcp
 
 # Should show: "MCP server running on stdio transport"
+
+# List available tools
+npx flow-nexus mcp tools
+
+# Check system status
+npx flow-nexus system
 ```
 
 **Authentication issues?**
@@ -471,9 +499,10 @@ npx flow-nexus
 **One Command. Real Tools. Actual Results.**
 
 ### **Resources**
-- 📚 **Documentation**: [fnx.ruv.io](https://fnx.ruv.io)
+- 📚 **Documentation**: [flow-nexus.ruv.io](https://flow-nexus.ruv.io)
 - 🐛 **Issues**: [GitHub](https://github.com/ruvnet/flow-nexus)
-- 📧 **Support**: support@flow-nexus.com
+- 📦 **NPM Package**: [npmjs.com/package/flow-nexus](https://www.npmjs.com/package/flow-nexus)
+- 📧 **Support**: Discord & GitHub Issues
 
 ---
 
