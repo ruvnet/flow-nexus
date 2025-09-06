@@ -56,7 +56,7 @@ npx flow-nexus init
 #    → 👑 Queen Seraphina - AI mentor
 ```
 
-### 🎁 **New User Bonus**: 2560 free rUv credits to start!
+### 🎁 **New User Bonus**: 256 free rUv credits to start!
 
 ---
 
@@ -64,7 +64,7 @@ npx flow-nexus init
 
 ### **Authentication & Setup**
 ```bash
-# Register new account (get 2560 free rUv credits!)
+# Register new account (get 256 free rUv credits!)
 npx flow-nexus auth register -e email@example.com -p password
 
 # Login to existing account
@@ -155,7 +155,7 @@ Every MCP tool operation costs rUv credits. Here are the actual costs from the s
 
 | Activity | Reward | How To |
 |----------|--------|--------|
-| **Register** | 2560 rUv | Sign up for free account (bonus!) |
+| **Register** | 256 rUv | Sign up for free account (bonus!) |
 | **Daily Login** | 100 rUv | Login bonus each day |
 | **Complete Challenge** | 10-50 rUv | `npx flow-nexus challenge` |
 | **Publish App** | 25 rUv | Share your creations |
