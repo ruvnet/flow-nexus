@@ -31,7 +31,7 @@ Agentic engineering is both a science to be mastered and an art to be practiced.
 
 Using Claude Code/Desktop, OpenAI Codex, Cursor, GitHub Copilot, and other MCP-enabled tools, deploy autonomous agent swarms into cloud-hosted agentic sandboxes. Build, compete, and monetize your creations in the ultimate agentic playground. Earn rUv credits through epic code battles and algorithmic supremacy.
 
-Flow Nexus combines the proven economics of cloud computing (pay-as-you-go, scale-on-demand) with the power of autonomous agent coordination. Built on the MCP (Model Context Protocol) standard, it delivers a hosted, economically sustainable platform where AI agents independently plan, execute, verify, and optimize tasks. The system operates with the engagement of a game and the reliability of a utility service.
+Flow Nexus combines the proven economics of cloud computing (pay-as-you-go, scale-on-demand) with the power of autonomous agent coordination. As the first agentic platform built entirely on the MCP (Model Context Protocol) standard, it delivers a unified interface where your IDE, agents, and infrastructure all speak the same language—enabling recursive intelligence where agents spawn agents, sandboxes create sandboxes, and systems improve themselves. The platform operates with the engagement of a game and the reliability of a utility service.
 
 ### How It Works
 
@@ -211,9 +211,7 @@ The engineering details that power the magic. Flow Nexus delivers enterprise-gra
 
 ## 🔧 MCP Tools Reference
 
-**Flow Nexus is the first platform to fully implement the MCP (Model Context Protocol) standard across all layers of the stack.** While others use MCP as an afterthought for integrations, Flow Nexus was architected from day one with MCP at its core. Every sandbox, every swarm, every neural network operates through MCP tools, creating a unified interface for both human developers and AI agents.
-
-This isn't just about compatibility; it's about a fundamental shift in how software is built. When your IDE, your agents, and your infrastructure all speak the same protocol, the boundaries between thinking and doing disappear. Your agents can spawn other agents. Your sandboxes can create sandboxes. Your neural networks can train themselves. This is recursive intelligence: systems that can understand, modify, and improve themselves.
+**Flow Nexus is the first platform built entirely on MCP (Model Context Protocol).** Every operation—from spawning agents to training neural networks—runs through MCP tools, enabling recursive intelligence where systems can understand, modify, and improve themselves.
 
 The 70+ MCP tools below aren't just API endpoints; they're the building blocks of autonomous intelligence. Master them, and you master the future of software development.
 
