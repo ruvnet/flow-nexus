@@ -1,0 +1,38 @@
+# Development files
+*.log
+*.db
+node_modules/
+.git/
+.gitignore
+
+# Test files
+test/
+*.test.js
+
+# Build artifacts
+dist/
+build/
+
+# Config files (user-specific)
+config.json
+mediaspend.db
+
+# Documentation source
+docs/
+*.md
+!README-NPX.md
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp

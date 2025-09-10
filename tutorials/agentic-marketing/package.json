@@ -1,0 +1,61 @@
+{
+  "name": "agentic-marketing",
+  "version": "2.0.0",
+  "description": "Autonomous Media Planning & Marketing Operations Platform - Modular Architecture with Flow Nexus MCP Integration",
+  "main": "main.js",
+  "bin": {
+    "agentic-marketing": "./agentic-marketing.js"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init": "node agentic-marketing.js init",
+    "status": "node agentic-marketing.js status"
+  },
+  "keywords": [
+    "marketing",
+    "media-planning",
+    "advertising",
+    "automation",
+    "ai",
+    "flow-nexus",
+    "mcp",
+    "autonomous",
+    "swarm",
+    "workflows",
+    "cross-platform",
+    "sqlite",
+    "modular"
+  ],
+  "author": "Flow Nexus Team",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^12.1.0",
+    "express": "^4.18.2",
+    "flow-nexus": "latest",
+    "inquirer": "^8.2.7",
+    "ora": "^5.4.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ruvnet/flow-nexus"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "os": [
+    "linux",
+    "darwin",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ]
+}
