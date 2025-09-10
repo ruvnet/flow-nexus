@@ -47,7 +47,7 @@ Flow Nexus orchestrates three interconnected MCP servers to create a complete AI
 
 ```bash
 # 1. Initialize Flow Nexus only (minimal setup)
-npx claude-flow@alpha init --flow-nexus
+npx claude-flow@alpha init --force
 
 # 2. Register and login (use MCP tools in Claude Code) 
 # Via command line: 
