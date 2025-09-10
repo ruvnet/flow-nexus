@@ -4,64 +4,53 @@ The Flow Nexus SDK provides comprehensive access to **94 MCP tools** for buildin
 
 ## 📚 Table of Contents
 
-### 🚀 [Quick Start Guide](./quick-start.md)
+### 🚀 [Quick Start Guide](./javascript/getting-started.md)
 - Installation and setup
 - First application example
 - Authentication setup
 
 ### 🔐 [Authentication & Core](./authentication/)
 - [Authentication Methods](./authentication/auth-methods.md)
-- [Session Management](./authentication/sessions.md) 
 - [User Management](./authentication/users.md)
-- [Permissions & Security](./authentication/security.md)
 
 ### 🐝 [AI Swarm Management](./swarms/)
-- [Swarm Initialization](./swarms/initialization.md)
-- [Agent Management](./swarms/agents.md)
-- [Topology Configuration](./swarms/topologies.md)
-- [Swarm Orchestration](./swarms/orchestration.md)
+- [Swarm Management](./swarms/swarm-management.md)
+- Agent orchestration and coordination
+- Topology configuration and optimization
 
 ### 🧠 [Neural Networks & AI](./neural/)
-- [Neural Network Training](./neural/training.md)
-- [Model Templates](./neural/templates.md)
-- [Inference & Prediction](./neural/inference.md)
-- [Model Management](./neural/models.md)
+- [Neural Network Training](./neural/neural-training.md)
+- Model templates and deployment
+- Distributed training clusters
 
 ### ⚡ [Workflow & Orchestration](./workflows/)
-- [Workflow Creation](./workflows/creation.md)
-- [Task Orchestration](./workflows/orchestration.md)
-- [Event-Driven Processing](./workflows/events.md)
-- [Message Queues](./workflows/messaging.md)
+- [Workflow Orchestration](./workflows/workflow-orchestration.md)
+- Event-driven processing and automation
+- Message queues and task coordination
 
 ### 🔧 [Sandbox & Execution](./sandbox/)
-- [Sandbox Management](./sandbox/management.md)
-- [Code Execution](./sandbox/execution.md)
-- [Environment Configuration](./sandbox/environments.md)
-- [Template Deployment](./sandbox/templates.md)
+- [Sandbox Execution](./sandbox/sandbox-execution.md)
+- Code execution environments
+- Template deployment and configuration
 
 ### 🔗 [GitHub Integration](./github/)
-- [Repository Management](./github/repositories.md)
-- [Pull Request Automation](./github/pull-requests.md)
-- [Issue Tracking](./github/issues.md)
-- [CI/CD Integration](./github/cicd.md)
+- [Repository Analysis](./github/repositories.md)
+- Automated repository analysis and insights
 
 ### 💾 [Storage & Files](./storage/)
-- [File Management](./storage/files.md)
-- [Cloud Storage](./storage/cloud.md)
-- [Real-time Updates](./storage/realtime.md)
-- [Backup & Sync](./storage/backup.md)
+- [File Storage](./storage/file-storage.md)
+- Cloud storage and file management
+- Real-time subscriptions and monitoring
 
 ### 🎯 [Templates & Marketplace](./templates/)
 - [Template System](./templates/system.md)
-- [App Store Integration](./templates/marketplace.md)
-- [Custom Templates](./templates/custom.md)
-- [Template Deployment](./templates/deployment.md)
+- [Marketplace](./templates/marketplace.md)
+- Featured and community templates
 
 ### 💰 [Credits & Payments](./payments/)
-- [Credit Management](./payments/credits.md)
-- [Billing & Payments](./payments/billing.md)
-- [Auto-refill Setup](./payments/auto-refill.md)
-- [Usage Tracking](./payments/tracking.md)
+- [Credit Management](./payments/credit-management.md)
+- Balance tracking and auto-refill
+- Payment history and billing
 
 ### 🤖 [AI Assistant (Seraphina)](./assistant/)
 - [Chat Integration](./assistant/chat.md)
