@@ -37,7 +37,7 @@
     "flow-nexus": "latest",
     "inquirer": "^8.2.7",
     "ora": "^5.4.1",
-    "sqlite3": "^5.1.7"
+    "sqlite3": "^6.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.0.0"
@@ -47,7 +47,7 @@
     "url": "https://github.com/ruvnet/flow-nexus"
   },
   "engines": {
-    "node": ">=16.0.0"
+    "node": ">=20.17.0"
   },
   "os": [
     "linux",
